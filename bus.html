@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>밀양역 - 부산대</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <h1>학교로 가는 버스 시간표</h1>
+        <a href="index.html" class="button back-button">🔙</a>
+      </header>
+      <div id="scheduleContainer"></div>
+    </div>
+    <script src="scripts/scheduleData.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+      renderSchedule('toSchool');
+    </script>
+  </body>
+</html>
